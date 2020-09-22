@@ -55,5 +55,11 @@ let playRound = (playerSelection) => {
 rockBtn.addEventListener("click", () => {
     playRound("rock");
 })
+paperBtn.addEventListener("click", () => {
+    playRound("paper");
+})
+scissorsBtn.addEventListener("click", () => {
+    playRound("scissors");
+})
 //console.log(playRound() + " The score is " + computerScore + " to " + playerScore);                
 
